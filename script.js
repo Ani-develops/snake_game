@@ -58,12 +58,12 @@ function changeDirection(e) {
 	}
 }
 
-// Randomly place food
+
 function placeFood() {
 
-	// in x coordinates.
+	
 	foodX = Math.floor(Math.random() * total_col) * blockSize;
 	
-	//in y coordinates.
+	
 	foodY = Math.floor(Math.random() * total_row) * blockSize;
 }
